@@ -1,0 +1,103 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #002d72;
+  padding: 10px 20px;
+  position: relative;
+  z-index: 1100; 
+}
+
+.navbar-logo img,
+.navbar-logo .bootstrap-logo {
+  height: 40px; 
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-menu a,
+.navbar-menu .nav-item {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+}
+
+.navbar-social {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar-social .social-icon,
+.navbar-social .search-icon {
+  color: #002d72;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 20px; 
+}
+
+.product-grid-overlay {
+  position: fixed; 
+  top: 55px; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  height: 100%;
+  z-index: 1010;
+  overflow-y: hidden;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.navbar-nav .nav-link {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-link svg {
+  margin-right: 8px;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.product-item {
+  text-align: center;
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.product-item h5 {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.product-item p {
+  margin-top: 5px;
+  color: #666;
+}
+
+.menuItem {
+  width: 120px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow-y: hidden;
+}
+.navbar-collapse {
+  display: block;
+}
